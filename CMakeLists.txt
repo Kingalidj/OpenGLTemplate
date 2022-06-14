@@ -36,7 +36,7 @@ set(SOURCES ${SOURCES}
     src/main.cpp
     )
 
-add_executable(${PROJ_NAME} ${SOURCES}  "src/linmath.h")
+add_executable(${PROJ_NAME} ${SOURCES})
 
 target_link_libraries(${PROJ_NAME} PRIVATE glfw)
 
